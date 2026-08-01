@@ -4,7 +4,7 @@ API_KEY = "01903f35eb2f43ac80d830110f0de5a3"
 BASE_URL = "https://newsapi.org/v2/top-headlines"
 
 def get_news(category="general" , country="us"):
-    url = f"{BASE_URL}?categitgory={category}&country={country}&apiKey={API_KEY}"
+    url = f"{BASE_URL}?category={category}&country={country}&apiKey={API_KEY}"
     response = requests.get(url)
     data = response.json()
 
