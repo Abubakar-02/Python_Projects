@@ -21,7 +21,7 @@ def typing_test():
     input("Press Enter when ready......")
 
     start = time.time()
-    user_input = input("\n✍️ Start Typing: ")
+    user_input = input("\n✍️  Start Typing: ")
     end = time.time()
 
     time_taken = end - start
